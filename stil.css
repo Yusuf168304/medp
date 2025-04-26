@@ -1,0 +1,497 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish";
+}
+
+.header {
+    padding-top: 40px;
+}
+
+.container {
+    max-width: 1180px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header_nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_list {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    align-items: center;
+}
+
+.header_link {
+    color: rgb(31, 21, 52);
+    font-family: 'Mulish';
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: none;
+    opacity: 0.5;
+    transition: 0.5s ease-in-out;
+}
+
+.header_link:hover {
+    color: black;
+    opacity: 1;
+}
+
+.hero {
+    padding-top: 91px;
+    padding-bottom: 91px;
+}
+
+.hero_textbox {
+    width: 440px;
+
+}
+
+.hero_title {
+    color: rgb(0, 0, 0);
+    font-family: 'Mulish';
+    font-size: 48px;
+    font-weight: 200;
+    line-height: 56px;
+}
+
+.hero_text {
+    color: #7d7987;
+    font-family: 'Mulish';
+    font-size: 21px;
+    font-weight: 200;
+    line-height: 32px;
+    margin-top: 26px;
+    margin-bottom: 35px;
+}
+
+.hero_btn {
+    width: 197px;
+    border-radius: 55px;
+    color: #4089ed;
+    font-family: 'Mulish';
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 23px;
+    padding: 14px 0;
+
+    background: rgb(255, 255, 255);
+    transition: 0.5s ease-in-out;
+    border-color: #4089ed;
+}
+
+.hero_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero_btn:hover {
+    background-color: rgb(69, 143, 246);
+    color: white;
+    border-color: white;
+}
+
+.yozuv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.our {
+    color: rgb(0, 0, 0);
+    font-family: 'Mulish';
+    font-size: 36px;
+    font-weight: 200;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.we {
+    color: rgb(125, 121, 135);
+    font-family: 'Mulish';
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+
+.infor {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+.rasmli {
+    width: 380px;
+    height: 380px;
+    border-radius: 20px;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+    background: rgb(231, 231, 231);
+}
+
+
+.luppa {
+    padding-left: 40px;
+    padding-top: 56px;
+}
+
+.hli {
+    color: rgb(0, 0, 0);
+    font-family: 'Mulish';
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.pli {
+    color: rgb(125, 121, 135);
+    font-family: 'Mulish';
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 24px;
+
+}
+
+.bonka {
+    padding-left: 42px;
+    padding-top: 55px;
+}
+
+.plan {
+    padding-left: 42px;
+    padding-top: 43px;
+}
+
+.yur {
+    padding-left: 42px;
+    padding-top: 55px;
+}
+
+.med {
+    padding-left: 42px;
+    padding-top: 79px;
+}
+
+.oop {
+    padding-left: 42px;
+    padding-top: 55px;
+}
+
+.rasimliclas {
+    margin-bottom: 300px;
+}
+
+.learm {
+    width: 200px;
+    height: 56px;
+    border-color: rgb(69, 143, 246);
+    border-radius: 55px;
+    transition: 0.5s ease-in-out;
+    color: rgb(69, 143, 246);
+    font-family: 'Mulish';
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+
+
+.but {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    margin-bottom: 100px;
+}
+
+.learm:hover {
+    background-color: rgb(69, 143, 246);
+    color: white;
+    border-color: white;
+
+}
+
+.more {
+    color: rgb(0, 0, 0);
+    font-family: 'Mulish';
+    font-size: 48px;
+    font-weight: 200;
+    line-height: 56px;
+    text-align: center;
+    margin-top: -230px;
+}
+
+
+
+.hone {
+    color: rgb(0, 0, 0);
+    font-size: 36px;
+    font-weight: 200;
+    margin-bottom: 100px;
+}
+
+.pone {
+    color: rgb(125, 121, 135);
+    font-size: 18px;
+    font-weight: 200;
+    margin-top: 70px;
+    margin-right: 100px;
+
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footo {
+    margin-left: -20px;
+}
+
+.fotoss {
+    padding-bottom: 120px;
+    padding-left: 60px;
+}
+
+.info {
+    margin-top: 100px;
+}
+
+.ten {
+    box-sizing: border-box;
+    border: 1.4px solid rgb(69, 143, 246);
+    border-radius: 55px;
+    width: 150px;
+    height: 43px;
+    margin-top: 60px;
+    color: rgb(69, 143, 246);
+    font-size: 13px;
+    font-weight: 200;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+
+}
+
+.ten:hover {
+    background-color: #4089ed;
+    color: white;
+    border-color: white;
+}
+
+.iii {
+    margin-top: -100px;
+
+}
+
+.chek {
+    padding-top: 90px;
+    padding-bottom: 230px;
+}
+
+.chek-title {
+    color: rgb(0, 0, 0);
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 200;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 110px;
+}
+
+img {
+    display: block;
+}
+
+.chek-item {
+    width: 380px;
+    list-style: none;
+}
+
+.chek-wrapper {
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+    background: rgb(255, 255, 255);
+    padding: 34px 84px 42px 30px;
+}
+
+.chek-heading {
+    color: rgb(0, 0, 0);
+    font-family: Mulish;
+    font-size: 21px;
+    font-weight: 200;
+    line-height: 32px;
+}
+
+.chek-test {
+    color: rgb(125, 121, 135);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 28px;
+    margin: 15px 0px;
+}
+
+.chek-link {
+    color: #4089ed;
+    font-family: Mulish;
+    font-size: 17px;
+    font-weight: 200;
+    line-height: 28px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.chek-link::after {
+    background-image: url("./images/Vector.png");
+    width: 14px;
+    height: 9px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    content: "";
+
+}
+
+.chek-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chek-btn {
+    width: 200px;
+    border: 1.4px solid rgb(69, 143, 246);
+    border-radius: 55px;
+    padding: 16px 0px;
+    color: rgb(69, 143, 246);
+    font-family: 'Mulish';
+    font-size: 18px;
+    font-weight: 200;
+    background-color: transparent;
+    margin-top: 50px;
+    margin-left: 520px;
+    transition: 0.5s ease-in-out;
+}
+
+.chek-btn:hover {
+    background-color: rgb(69, 143, 246);
+    color: white;
+    border-color: white;
+}
+
+.kok {
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(211.68deg, rgb(103, 195, 243) 8.549%, rgb(90, 152, 242) 70.494%);
+}
+.traf{
+    color: rgb(255, 255, 255);
+font-family: 'Mulish';
+font-size: 24px;
+font-weight: 200;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+.trafp{
+    color: rgb(255, 255, 255);
+font-family: 'Mulish';
+font-size: 18px;
+font-weight: 200;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+}
+.app{
+    color: rgb(255, 255, 255);
+font-family: 'Mulish';
+font-size: 20px;
+font-weight: 200;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: left;
+}
+.company{
+    color: rgb(255, 255, 255);
+font-family: 'Mulish';
+font-size: 20px;
+font-weight: 200;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: left;
+display: flex;
+gap: 10px;
+flex-direction: column;
+}
+.region{
+    color: rgb(255, 255, 255);
+font-family: 'Mulish';
+font-size: 20px;
+font-weight: 200;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: left;
+display: flex;
+gap: 10px;
+flex-direction: column;
+
+}
+.help{
+    color: rgb(255, 255, 255);
+font-family: 'Mulish';
+font-size: 20px;
+font-weight: 200;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: left;
+display: flex;
+gap: 10px;
+flex-direction: column;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 160px;
+}
+.bir{
+    display: flex;
+gap: 20px;
+flex-direction: column;
+}
